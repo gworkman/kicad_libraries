@@ -530,7 +530,7 @@
 				)
 			)
 		)
-		(property "Value" "MS3423"
+		(property "Value" "MP3423"
 			(at 7.62 -10.16 0)
 			(effects
 				(font
@@ -642,7 +642,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at -10.16 3.81 0)
 				(length 2.54) hide
 				(name "IN"
@@ -696,7 +696,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at -1.27 -8.89 90)
 				(length 2.54) hide
 				(name "PGND"
@@ -732,7 +732,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at -1.27 -8.89 90)
 				(length 2.54) hide
 				(name "PGND"
@@ -822,7 +822,7 @@
 					)
 				)
 			)
-			(pin no_connect line
+			(pin passive line
 				(at -1.27 -8.89 90)
 				(length 2.54) hide
 				(name "NC"
@@ -1045,7 +1045,7 @@
 			)
 		)
 		(symbol "XC6192_1_0"
-			(pin no_connect line
+			(pin passive line
 				(at 0 -8.89 90)
 				(length 2.54) hide
 				(name "NC"

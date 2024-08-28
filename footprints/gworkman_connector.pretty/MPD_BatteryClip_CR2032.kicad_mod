@@ -1,0 +1,303 @@
+(footprint "MPD_BatteryClip_CR2032"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "CR2032 battery clip SMD")
+	(tags "CR2032 coin cell battery clip holder SMD")
+	(property "Reference" "REF**"
+		(at -10.575 -5.635 0)
+		(layer "F.SilkS")
+		(uuid "19547e1b-85a5-4e92-acfc-75428922a5fa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "BAT_BC-2003"
+		(at -6.765 5.865 0)
+		(layer "F.Fab")
+		(uuid "0d086526-7e09-41ab-8a91-dffdfe272af3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "08ad7098-8d7f-4403-848b-e9e44d4d1fae")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7aba03bb-2e13-487d-a54e-3c8fc594a0cc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "CR2032 battery clip SMD"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5771b84d-b1cd-4fbd-8ffb-c7f7d794ad13")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -10.35 -4.765)
+		(end 10.35 -4.765)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "426cbc47-e9a7-414a-b29a-e944a57277e0")
+	)
+	(fp_line
+		(start -10.35 -3.1)
+		(end -10.35 -4.765)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1a1817ce-9dd7-4408-a1fc-9e71391fbf58")
+	)
+	(fp_line
+		(start -10.35 4.765)
+		(end -10.35 3.1)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8b5eb579-b4e8-44d9-974b-a11052e3b0a2")
+	)
+	(fp_line
+		(start 10.35 -4.765)
+		(end 10.35 -3.1)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a6264425-b686-493d-9d3f-faab37e56994")
+	)
+	(fp_line
+		(start 10.35 3.1)
+		(end 10.35 4.765)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b3e5ac30-11b0-46f7-ae40-784dd3402a3b")
+	)
+	(fp_line
+		(start 10.35 4.765)
+		(end -10.35 4.765)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "052b3b0a-0130-4551-aec6-c837854d8b3e")
+	)
+	(fp_arc
+		(start -8 -6)
+		(mid 0 -10)
+		(end 8 -6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "0b0e047d-656c-401d-9d57-4552c80408b7")
+	)
+	(fp_arc
+		(start 8 6)
+		(mid 0 10)
+		(end -8 6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ad685ee1-6b19-4594-bba1-e97daf8d83cc")
+	)
+	(fp_line
+		(start -13.46 -5)
+		(end -13.46 5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b2deaaf5-7010-4fe7-bf3e-35c179bda9c6")
+	)
+	(fp_line
+		(start -9.7 -5)
+		(end -13.46 -5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "ebb884a3-2a6b-4c4f-969d-ee6ed527aedc")
+	)
+	(fp_line
+		(start -9.7 5)
+		(end -13.46 5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "7ec0c3eb-5039-4b5c-88ef-7fc1bd4618d0")
+	)
+	(fp_line
+		(start 9.7 -5)
+		(end 13.46 -5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "db0a471a-6cee-448c-8932-7a61e7bf9ba3")
+	)
+	(fp_line
+		(start 13.46 5)
+		(end 9.7 5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "120cbf53-6aca-40ac-97bb-d705e4c9289d")
+	)
+	(fp_line
+		(start 13.46 5)
+		(end 13.46 -5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "78e7e294-42ad-47b9-82c4-e5c5a5ecc5fe")
+	)
+	(fp_arc
+		(start -9.7 -5)
+		(mid 0 -10.912836)
+		(end 9.7 -5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "6437815e-d30d-490f-89f2-b355c81f5540")
+	)
+	(fp_arc
+		(start 9.7 5)
+		(mid 0 10.912836)
+		(end -9.7 5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "41e31763-de57-4d49-82fd-990ebc73468d")
+	)
+	(fp_line
+		(start -10.35 -4.765)
+		(end -10.35 4.765)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "53af534d-5a3c-423c-86d6-41784329e2c0")
+	)
+	(fp_line
+		(start -10.35 -4.765)
+		(end 10.35 -4.765)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "969c3358-3079-4467-a8c1-f487e20d3b60")
+	)
+	(fp_line
+		(start -10.35 4.765)
+		(end 10.35 4.765)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "46933577-b462-43a9-a099-6c775521dfaa")
+	)
+	(fp_line
+		(start 10.35 -4.765)
+		(end 10.35 4.765)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e4e0b061-81a4-49ba-af78-b333c3856ee1")
+	)
+	(pad "1" smd rect
+		(at -11.905 0)
+		(size 2.6 5.56)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "e6b3e151-4409-43db-a580-7646fcfa8cff")
+	)
+	(pad "1" smd rect
+		(at 11.905 0)
+		(size 2.6 5.56)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "9ecbf8bd-7c03-4c92-aed4-9df36e51acee")
+	)
+	(pad "2" smd rect
+		(at 0 0)
+		(size 7.8 5.96)
+		(layers "F.Cu" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "37cb90f2-ca58-414f-a22e-c0e4c46b23c9")
+	)
+	(model "${GWORKMAN_LIBRARY_DIR}/3dmodels/BC-2003.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)
